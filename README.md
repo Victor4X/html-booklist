@@ -8,3 +8,4 @@ A python script that generates an interactive html book list, so you can easily 
 
 ## Todos:
 - ~~Relative pathing (I'm currently using absolute paths :P)~~
+- Only add pdfs (Currently adds all files)
