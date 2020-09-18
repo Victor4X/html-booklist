@@ -1,4 +1,4 @@
-### Current version only tested on Ubuntu
+### Current version tested on Ubuntu and Windows 10
 
 # booklist
 A python script that generates an interactive html book list, so you can easily access your pdf files through the browser
