@@ -5,3 +5,6 @@ A python script that generates an interactive html book list, so you can easily 
 
 ## Example output: 
 #TODO
+
+## Todos:
+- Relative pathing (I'm currently using absolute paths :P)
