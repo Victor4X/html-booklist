@@ -6,6 +6,7 @@ import os, sys
 #set path
 
 script_dir = os.path.dirname(os.path.abspath(__file__)) #<-- absolute dir the script is in
+print(script_dir) # Testing
 start_dir = "books" # use "." if books are in current directory
 path = os.path.join(script_dir, start_dir)
 
@@ -35,6 +36,6 @@ for subdir in dirs:
          relativePath = os.path.relpath(file, subdir)
          nopdf = os.path.splitext(relativePath)[0]
          #print ( nopdf )
-         f.write("<a target=\"_blank\" href=\"/"+file+"\""+">"+nopdf+"</a> <br>"+'\n')
+         f.write("<a target=\"_blank\" href=\"./"+os.path.relpath(file,script_dir)+"\""+">"+nopdf+"</a> <br>"+'\n')
 
 f.close()
