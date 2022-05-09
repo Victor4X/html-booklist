@@ -17,7 +17,7 @@ dirs = [x[0] for x in os.walk(path)]
 
 # This would print all the files and directories
 
-f = open('output.html','w')
+f = open('booklist.html','w')
 
 for subdir in dirs:
 
